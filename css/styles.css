@@ -1,0 +1,210 @@
+:root{
+    --primery-text-color: #F5F5F5;
+    --title-text-color:#000000;
+    --accent-color:#2196F3;
+    --accent-text-color:#FFFFFF;
+    --text-color:#212121;
+    }
+
+
+body {
+    background-color:var(--accent-text-color);
+    font-family: Robobo, sans-serif;
+    letter-spacing: -0.015em;
+    font-size: 16px;
+    line-height: 1.9;
+    position: absolute;
+}
+ul{
+    list-style: none;
+}
+p{
+    color: #757575;
+}
+/*Шапка*/
+header{ 
+      background-color: var(--accent-text-color);  
+}
+.title-header {
+    color: var(--title-text-color);
+    letter-spacing: 0.03em;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        text-decoration: none;
+}
+.contact{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+
+}
+.contact-link{
+    color: #757575;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+}
+.contact-link:hover,
+.contact-link:focus
+{
+    color: var(--accent-color);
+}
+.title-link {
+    color: var(--accent-color);
+}
+
+.link {
+    color: var(--title-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+/*Секція 1*/
+.hero{
+    background-color: var(--text-color);
+}
+.hero-title {
+    color: var(--accent-text-color);
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+
+.button{
+    color: var(--accent-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+.button-type{
+    background-color: #F5F4FA;
+    color:var(--title-text-color);
+    cursor: pointer;
+}
+.button-type:hover,
+.button-type:focus{
+    background-color: var(--accent-color);
+    color: var(--accent-text-color);
+}
+
+
+/*Секція 2*/
+
+.list-title {
+    color: var(--text-color);
+}
+.title{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.text{
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+}
+.title-text{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+}
+.title-image{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+}
+
+
+/*Секція 3*/
+
+.section-title{
+    color: var(--text-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+}
+.section-image{
+    background-color: var(--primery-text-color);
+}
+
+.futures{
+    color: var(--text-color);
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+}
+.text-futures{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.03em;
+}
+
+/*Підвал*/
+address{
+    color: var(--accent-text-color);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+}
+
+footer{
+    background-color: var(--text-color);
+
+}
+.contact-footer{
+    color: #FFFFFF;
+}
+.contact-footer:hover,
+.contact-footer:focus {
+    color: var(--accent-color);}
+    
+.title-footer {
+    color: var(--accent-text-color);
+    text-decoration: none;
+    
+}
+/* Секція фото portfolio*/
+.text-port{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.text-image{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.03em;
+}
+
+
+
+
+/*font-family: 'Montserrat',
+sans-serif;
+font-family: 'Raleway',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;*/
