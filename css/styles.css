@@ -4,6 +4,9 @@
     --accent-color: #2196F3;
     --accent-text-color: #FFFFFF;
     --text-color: #212121;
+    --card-sat-gap: 30px;
+    --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+            0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 html{
     box-sizing: border-box;
@@ -56,9 +59,7 @@ li{
 /*Шапка*/
 header {
     background-color: var(--accent-text-color);
-    
-    border-bottom: 1 px solid var(--text-color);
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .auth {
@@ -206,14 +207,11 @@ padding-top: 94px;
 margin-bottom: 50px;
 }
 
-.portfolio-image {
-    margin-right: 0;
-    margin-bottom: 20px;
-}
+
 
 
 /*Секція 2*/
-.section{
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -233,13 +231,13 @@ margin-bottom: 50px;
     text-transform: uppercase;
 }
 
-.text{
+.text {
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-  margin-top: 0;
-  margin-bottom: 118px;
+    margin-top: 0;
+    margin-bottom: 118px;
 }
 
 
@@ -264,7 +262,8 @@ margin-bottom: 50px;
     margin-top: 0;
     margin-bottom: 50px;
 }
-.font-image{
+
+.font-image {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -272,32 +271,25 @@ margin-bottom: 50px;
 
 
 }
-.photo{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    margin-bottom: 94px;
-    margin-right: 30px;
-    border: 1px solid #EEEEEE;
 
 
-}
+
 .photo:last-child {
     margin-right: 0;
 }
+
 .photo-port {
     margin: 0;
     padding: 0;
     list-style: none;
     margin-bottom: 30px;
     margin-right: 30px;
+    box-shadow: var(--card-shadow);
 }
-.photo-port:last-child{
+
+.photo-port:last-child {
     margin-right: 0;
 }
-
-
-
 
 /*Секція 3*/
 
@@ -312,8 +304,9 @@ margin-bottom: 50px;
     margin-top: 0;
     margin-bottom: 50px;
 }
-.section-futures{
-    display: flex;
+
+.section-futures {
+ display: flex;
     margin: 0;
 }
 
@@ -344,11 +337,13 @@ margin-bottom: 50px;
     margin-top: 0;
     margin-bottom: 30px;
 }
-.futures-image{
+
+.futures-image {
+
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 30px;
-border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 /*Підвал*/
@@ -365,6 +360,7 @@ address {
 
 footer {
     background-color: var(--text-color);
+    box-shadow: var(--card-shadow);
 
 }
 .contact-title{
@@ -408,9 +404,7 @@ margin-bottom: 20px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-bottom: 4px;
-    margin-left: 24px;
-    margin-right: 24px;
+ 
 }
 
 .text-image {
@@ -418,13 +412,39 @@ margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    margin-bottom: 20px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-top: 4px;
 }
+/* Card*/
+
+.font-image{
+    padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--card-sat-gap));
+        margin-top: calc(-1 * var(--card-sat-gap));
+        padding-bottom: 94px;
+    }
+
+.font-image > .photo{
+        flex-basis: calc (100% / 3 - 30px);
+            margin-left: var(--card-sat-gap);
+            margin-top: var(--card-sat-gap);
+        }
 
 
 
+
+.card-content{
+    padding: 20px 24px;
+
+}
+.card{
+    box-shadow: var(--card-shadow);
+        border-radius: 4px;
+        overflow: hidden;
+}
 
 
 /*font-family: 'Montserrat',
