@@ -50,9 +50,8 @@ h4,
 h5,
 h6,
 p,
-li,
-{
-    margin:0;
+li{
+    margin: 0;
 }
 
     
@@ -192,6 +191,7 @@ header {
     border: 1px solid transparent;
 
 }
+
 
 
 .button-type:hover,
@@ -436,7 +436,7 @@ margin-bottom: 20px;
 /* Card*/
 
 .font-image{
-    padding: 0;
+    padding-bottom: 94px;
         margin: 0;
         list-style: none;
         display: flex;
