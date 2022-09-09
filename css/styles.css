@@ -306,12 +306,12 @@ margin-bottom: 50px;
 }
 
 .portfolio{
-margin: 0;
-list-style: none;
-display: flex;
-flex-wrap: wrap;
-margin-left: calc(-1 * var(--card-sat-gap));
-margin-top: calc(-1 * var(--card-sat-gap));
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-sat-gap));
+  margin-top: calc(-1 * var(--card-sat-gap));
 }
 
 /*Секція 3*/
@@ -416,8 +416,8 @@ footer {
     font-size: 26px;
     line-height: 1, 2;
     letter-spacing: 0.03em;
-margin-top: 0;
-margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
 
 }
 
@@ -455,9 +455,6 @@ margin-bottom: 20px;
             margin-left: var(--card-sat-gap);
             margin-top: var(--card-sat-gap);
         }
-
-
-
 
 .card-content{
     padding: 20px 24px;
