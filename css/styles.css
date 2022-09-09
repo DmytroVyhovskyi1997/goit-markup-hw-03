@@ -306,17 +306,22 @@ margin-bottom: 50px;
 }
 
 .portfolio{
-  margin: 0;
+  margin-bottom: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1 * var(--card-sat-gap));
-  margin-top: calc(-1 * var(--card-sat-gap));
-justify-content: center;
-padding-left: 0;
+  justify-content: center;
+  padding: 0;
+align-items: center;
+margin-left: 0;
+margin-bottom: 0;
+margin-top: 0;
 }
+
 .photo-portfolio{
     margin-right: 30px;
+}
+.photo-portfolio:last-child{ margin-right: 0;
 }
 
 
@@ -333,6 +338,7 @@ padding-left: 0;
     text-align: center;
     letter-spacing: 0.03em;
     margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .section-futures {
