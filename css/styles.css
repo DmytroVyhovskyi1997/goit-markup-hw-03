@@ -305,7 +305,7 @@ margin-bottom: 50px;
     margin-right: 0;
 }
 
-.font{
+.portfolio{
 margin: 0;
 list-style: none;
 display: flex;
@@ -441,8 +441,8 @@ margin-bottom: 20px;
 /* Card*/
 
 .font-image{
-    padding-bottom: 94px;
         margin: 0;
+        padding-bottom: 94px;
         list-style: none;
         display: flex;
         flex-wrap: wrap;
